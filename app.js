@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const mongoose = require('mongoose');
 
 const homeStartingContent = "Free speech stands as a cornerstone of democratic societies, embodying the fundamental right to express ideas, opinions, and beliefs without fear of censorship or reprisal. It serves as a catalyst for progress, fostering an environment where diverse voices can be heard, debated, and challenged. Free speech enables the exchange of knowledge, the exploration of new perspectives, and the discovery of innovative solutions to societal issues. It is through the unfettered expression of thoughts and ideas that societies can grow, adapt, and evolve. Free speech empowers individuals to hold power to account, to advocate for justice, and to champion causes that promote equality and human rights. It is a vital pillar that safeguards personal autonomy, encourages critical thinking, and fuels the engines of social change.This site allows you to anonymously post your thoughts to the world to bring a change";
-const aboutContent ="I am Anusa De, a third year undergraduate at Kalinga Institute of Industrial Technology,Bhubaneswar.\nThis Webapp allows you to compose your thoughts to the world to infinity &beyond!\nExpress your thoughts by composing now.";
+const aboutContent ="I am Anusa De, a third year undergraduate at Kalinga Institute of Industrial Technology,Bhubaneswar.\nThis Webapp allows you to compose your thoughts to the world.\nExpress your thoughts by composing now.";
 const app = express();
 
 app.set('view engine', 'ejs');
